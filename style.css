@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+  align-items: center;
+  font-family: "Barlow", sans-serif;
+  justify-content: center;
+  gap: 12px;
+  padding: 24px;
+  background-color: #f3e5d8;
+  overflow-x: hidden;
+}
+
+main {
+  background-color: white;
+  padding: 24px;
+  border-radius: 8px;
+  display: flex;
+  width: 700px;
+  height: auto;
+  gap: 24px; /* J'ai augmenté le gap ici pour le rendre plus visible */
+  flex-direction: column;
+  margin: 20px 0; /* ajouté */
+  justify-content: center;
+}
+
+.recipe-info__details {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 36px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 12px;
+}
+
+.recipe-info__text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.recipe-info {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 18px;
+}
+
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 18px;
+}
+
+.ingredients ul {
+  padding-left: 24px;
+  margin-left: 4px;
+  margin-bottom: 12px;
+}
+
+ul > li {
+  padding-left: 24px;
+  margin-bottom: 12px;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-left: 12px;
+}
+
+ul > li::marker {
+  color: hsl(332, 51%, 32%);
+  font-weight: 400;
+  font-size: 0.6em;
+}
+
+ol > li::marker {
+  color: hsl(332, 51%, 32%);
+  font-weight: 700;
+  font-size: 1em;
+}
+
+ol > li {
+  padding-left: 12px;
+}
+
+li {
+  color: hsl(30, 10%, 34%);
+  font-size: 16px;
+}
+
+table {
+  width: 100%;
+  padding: 12px;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid hsla(33, 5%, 42%, 0.511);
+}
+
+.nutrition__value {
+  font-weight: 700;
+  color: hsl(332, 51%, 32%);
+}
+
+.nutrition__label {
+  font-weight: 700;
+  color: hsl(30, 10%, 34%);
+}
+
+.nutrition {
+  gap: 12px;
+  flex-direction: column;
+  display: flex;
+}
+
+h4 {
+  color: hsl(30, 10%, 34%);
+}
+
+.bold {
+  font-weight: 700;
+  color: hsl(0, 0%, 0%);
+}
+
+img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.recipe-info__details li {
+  padding-left: 24px;
+  margin-left: 32px;
+  margin-bottom: 12px;
+}
+
+.etape {
+  gap: 50px;
+}
+
+h1 {
+  font-weight: 700;
+  font-family: "Young Serif", serif;
+  font-size: 35px;
+}
+
+p,
+li {
+  color: hsl(30, 10%, 34%);
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+  font-weight: 400;
+}
+
+h2 {
+  color: hsl(332, 51%, 32%);
+  font-size: 32px;
+  font-weight: 400;
+}
+
+h2,
+h1,
+h3 {
+  font-family: "Young Serif", serif;
+}
